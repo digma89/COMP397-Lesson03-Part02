@@ -38,3 +38,35 @@ impress-enable .step.active {
     font-size:30px;
 }
 
+/*Styling for slide paragraphs*/
+.slide p{
+    margin-top:15px;
+    margin-bottom:15px;
+    line-height:45px;
+}
+
+/*Styling links to look like buttons*/
+.slide a, .slide a:visited{
+    color: #071549;
+    text-decoration: none;
+    background-color: #abc;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #cde;
+}
+
+.slide a:hover, .slide a:active{
+    background-color: #cde;
+}
+
+/*Styling for slide text area*/
+.slide .slide-text{
+    height:450px;
+}
+
+/*styling for the menu*/
+div.menu{
+    border-top: 2px solid black;
+    padding-top:25px;
+    text-align:center;
+}

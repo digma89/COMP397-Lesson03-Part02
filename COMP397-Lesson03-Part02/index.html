@@ -10,6 +10,7 @@
 </head>
 <body onload="init();">
     <div id="impress">
+        <!--First slide-->
         <div id="1" class="step slide">
             <div class="slide-text">
                 <p>There is a time machine over there, flip the switch?</p>
@@ -17,6 +18,23 @@
                 <p><a href="#3">WAIT</a>wait for your dad, whois a scientist to come home.</p>
             </div>
         </div>
+        <!--Second slide--> <!--  data-x= "position in pixels for the slides "-->
+        <div id="2" class="step slide" data-x="1500"> 
+            <div class="slide-text">
+                <p>You went back in time. It was fun.</p>
+                <div class="menu"><a href="#1">Start over</a></div>
+                </div>
+        </div>
+        <!--Third Slide-->
+        <div id="3" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You waited for dad.</p>
+                <p>He wanted you to do you homework</p>
+                <p>It was really boring...</p>
+                <div class="menu"><a href="#1">Start over</a></div>
+            </div>
+        </div>
+
     </div>
     <!--JavaScript Section-->
     <script src="scripts/lib/impress.js"></script>
