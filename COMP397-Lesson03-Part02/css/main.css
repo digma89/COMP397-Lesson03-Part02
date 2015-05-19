@@ -1,0 +1,40 @@
+﻿body {
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #feccb1 0%, #ea5507 83%, #ea5507 100%, #f17432 100%, #fb955e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(83%,#ea5507), color-stop(100%,#ea5507), color-stop(100%,#f17432), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #feccb1 0%,#ea5507 83%,#ea5507 100%,#f17432 100%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #feccb1 0%,#ea5507 83%,#ea5507 100%,#f17432 100%,#fb955e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #feccb1 0%,#ea5507 83%,#ea5507 100%,#f17432 100%,#fb955e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #feccb1 0%,#ea5507 83%,#ea5507 100%,#f17432 100%,#fb955e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.impress-enable .step{
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: background 1s;
+}
+
+impress-enable .step.active {
+    opacity: 1
+}
+
+.slide {
+    display: block;
+    width: 700px;
+    height: 600px;
+    padding: 40px 60px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgb(52,52,52);
+    text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size:30px;
+}
+
